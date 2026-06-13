@@ -32,7 +32,7 @@
 <!-- ====================== ABOUT ====================== -->
 ## ⟡ About
 
-<img align="right" width="40%" src="https://github-readme-stats.vercel.app/api?username=openatlaspro-AI&show_icons=true&hide_border=true&theme=tokyonight&icon_color=8B5CF6&title_color=A78BFA&text_color=C4B5FD" alt="stats" />
+<img align="right" width="40%" src="https://github-readme-stats.vercel.app/api?username=openatlaspro-AI&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&icon_color=8B5CF6&title_color=A78BFA&text_color=C4B5FD" alt="stats" />
 
 AI/ML Engineer with **8+ years** building data and machine learning systems across supply chain, logistics, and finance operations. I work at the intersection of **software engineering, ML infrastructure, and applied AI** — shipping production systems, not isolated experiments.
 
@@ -236,7 +236,7 @@ Progressed from operational logistics analysis into data engineering: built SQL 
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=openatlaspro-AI&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&icon_color=8B5CF6&title_color=A78BFA&text_color=C4B5FD&bg_color=0D1117" alt="stats" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=openatlaspro-AI&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&icon_color=8B5CF6&title_color=A78BFA&text_color=C4B5FD&bg_color=0D1117" alt="stats" />
 <img width="49%" src="https://streak-stats.demolab.com?user=openatlaspro-AI&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=C4B5FD" alt="streak" />
 
 <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=openatlaspro-AI&layout=compact&hide_border=true&theme=tokyonight&title_color=A78BFA&text_color=C4B5FD&bg_color=0D1117" alt="top-langs" />
