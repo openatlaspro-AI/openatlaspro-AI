@@ -121,6 +121,25 @@ This project demonstrates the discipline most RAG demos skip: a real evaluation 
 </details>
 
 <details>
+<summary><b>◆ Quant Research Platform</b> — systematic trading research with anti-self-deception validation</summary>
+
+<br/>
+
+End-to-end research platform for testing systematic trading signals on US equities — built as a portfolio engineering project, explicitly **not** a money-making system. Its defining property: it tells you when something *doesn't* work. The validation pipeline is designed to catch the author fooling themselves.
+
+| Attribute | Detail |
+|-----------|--------|
+| **Stack** | Python · DuckDB · pandas / numpy · point-in-time data layer · interactive dashboard |
+| **Scale** | 165-ticker universe (large/mid/small caps + sector & macro ETFs) · multi-horizon features |
+| **Rigor** | one-bar execution lag · stochastic look-ahead tests on every feature · walk-forward validation · realistic costs (half-spread + slippage + SEC fee + borrow) + 2× cost stress |
+| **Honesty** | Deflated Sharpe (Bailey & López de Prado) for multiple-testing correction; documented arc where only 1 of 3 signal families had positive out-of-sample Sharpe — and that one roughly breakeven net of costs |
+| **Repository** | [github.com/openatlaspro-AI/quant-research-platform](https://github.com/openatlaspro-AI/quant-research-platform) |
+
+The same engineering value that runs through my AI work: measure honestly, prevent look-ahead and leakage, and report the result even when it's negative.
+
+</details>
+
+<details>
 <summary><b>◆ FamilyHQ</b> — multi-agent AI automation system</summary>
 
 <br/>
@@ -226,12 +245,17 @@ Progressed from operational logistics analysis into data engineering: built SQL 
 
 ---
 
-<!-- ====================== TROPHIES ====================== -->
-## ⟡ GitHub Trophies
+<!-- ====================== PINNED REPOS ====================== -->
+## ⟡ Featured Repositories
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=openatlaspro-AI&theme=algolia&no-frame=true&no-bg=true&column=4&row=2&margin-w=12&margin-h=12&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,Reviews,MultipleLang" alt="trophies" />
+<a href="https://github.com/openatlaspro-AI/production-rag-eval">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=openatlaspro-AI&repo=production-rag-eval&hide_border=true&theme=tokyonight&title_color=A78BFA&text_color=C4B5FD&icon_color=8B5CF6&bg_color=0D1117" alt="production-rag-eval" />
+</a>
+<a href="https://github.com/openatlaspro-AI/quant-research-platform">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=openatlaspro-AI&repo=quant-research-platform&hide_border=true&theme=tokyonight&title_color=A78BFA&text_color=C4B5FD&icon_color=8B5CF6&bg_color=0D1117" alt="quant-research-platform" />
+</a>
 
 </div>
 
