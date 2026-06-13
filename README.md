@@ -231,7 +231,7 @@ Progressed from operational logistics analysis into data engineering: built SQL 
 
 <div align="center">
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=openatlaspro-AI&theme=onedark&no-frame=true&column=7&margin-w=10&margin-h=10" alt="trophies" />
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=openatlaspro-AI&theme=algolia&no-frame=true&no-bg=true&column=4&row=2&margin-w=12&margin-h=12&title=Stars,Followers,Commits,Repositories,PullRequest,Issues,Reviews,MultipleLang" alt="trophies" />
 
 </div>
 
