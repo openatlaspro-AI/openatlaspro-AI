@@ -1,16 +1,16 @@
 <!-- ====================== HEADER ====================== -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=gradient&customColorList=12,20,24&text=Mark%20Teji&fontColor=ffffff&fontSize=58&fontAlignY=34&desc=AI%2FML%20Engineer%20%C2%B7%20ML%20Platform%20%C2%B7%20Production%20GenAI&descAlignY=56&descSize=18&animation=fadeIn" alt="header" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=gradient&customColorList=12,20,24&text=Mark%20Teji&fontColor=ffffff&fontSize=58&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Production%20RAG%20%2B%20Multi-Agent%20Systems&descAlignY=56&descSize=18&animation=fadeIn" alt="header" />
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=720&lines=AI%2FML+Engineer+%7C+8%2B+Years+Building+Data+%26+ML+Systems;Production+RAG+%E2%80%A2+Agentic+Systems+%E2%80%A2+LLM+Evaluation;ML+Platform+%C2%B7+MLOps+%C2%B7+Databricks+%C2%B7+Azure;Turning+Supply-Chain+Data+Into+Intelligent+Systems" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=720&lines=AI+Engineer+%7C+Production+RAG+%2B+Multi-Agent+Systems;Azure+ML+%C2%B7+Azure+OpenAI+%C2%B7+MLflow+%C2%B7+Databricks;Eval+Rigor+%E2%80%A2+Observability+%E2%80%A2+Agentic+Workflows;I+build+production+AI+where+every+metric+has+a+receipt" alt="typing" />
 </a>
 
 <br/>
 
 [![Education](https://img.shields.io/badge/BBA-University_of_Guelph--Humber-7C3AED?style=for-the-badge&logo=googlescholar&logoColor=white)](https://www.guelphhumber.ca/)
-[![Location](https://img.shields.io/badge/Canada_%2F_USA-TN_Visa_Eligible_(USMCA)-6D28D9?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/Detroit_Metropolitan_Area-TN_Visa_Eligible-6D28D9?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 <br/>
 
@@ -34,17 +34,19 @@
 
 <img align="right" width="40%" src="https://github-readme-stats.vercel.app/api?username=openatlaspro-AI&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=tokyonight&icon_color=8B5CF6&title_color=A78BFA&text_color=C4B5FD" alt="stats" />
 
-AI/ML Engineer with **8+ years** building data and machine learning systems across supply chain, logistics, and finance operations. I work at the intersection of **software engineering, ML infrastructure, and applied AI** — shipping production systems, not isolated experiments.
+**I build production AI systems where every metric has a receipt.**
 
-I design and deploy **production generative-AI**: a RAG pipeline with a full evaluation harness measuring retrieval precision, latency, and cost-per-query, plus a benchmarked LangGraph multi-agent variant. I bring an **ML-platform mindset** — reproducibility, operational reliability, and measurable accuracy in enterprise environments — grounded in a **product-engineering** approach where the metric that matters is whether the system works in production.
+Recently shipped a public production RAG system with a reproducible eval suite — precision@5 `0.682`, MRR `0.920`, 100% refusal rate on negative tests, $0.034 total eval cost. Every number in the README is backed by a JSON receipt in the repo.
 
-My foundation is real-world operational data: freight movement, shipment reconciliation, and forecasting across multi-million-record pipelines. That domain depth is the edge I bring to applied AI.
+**What I do**
+- **Production RAG** — retrieval, generation, eval, observability
+- **MLOps + ML platforms** — Databricks, MLflow, Delta Lake, Kafka
+- **Agentic AI** — multi-step LLM workflows, tool use, refusal design
+- **Cloud-native ML** — Azure Databricks, Azure ML, Azure Data Factory
 
-**◆ Open To**
-- AI / ML Engineer · ML Platform · MLOps Engineer
-- Forward Deployed Engineer at AI labs
-- Applied GenAI · Agentic Systems · LLM Evaluation
-- Remote (US/Canada) · On-site US — TN visa eligible (USMCA)
+The thing most engineers don't do: I build eval rigor *before* shipping. Most public RAG demos hide their methodology — mine documents the labeling protocol, discloses upper-bound caveats on recall@10, and ships the raw consolidated report as proof.
+
+**◆ Open To** — based in Greater Toronto Area, TN visa eligible. Open to Toronto, remote-US, or US relocation roles. If you build production AI and need someone who treats eval as a first-class deliverable, let's talk.
 
 ---
 
@@ -77,6 +79,7 @@ My foundation is real-world operational data: freight movement, shipment reconci
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Mistral](https://img.shields.io/badge/Mistral_API-FF7000?style=flat-square&logo=mistralai&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logo=anthropic&logoColor=white)
 
@@ -164,24 +167,38 @@ A working demonstration of agentic systems delivering real outcomes — building
 <!-- ====================== EXPERIENCE ====================== -->
 ## ⟡ Experience
 
-### Data & AI Systems Engineer · Master Truck Center
-`October 2021 – Present` · Brampton, ON · 3PL / Freight & Logistics
+### AI Engineer / Data & AI Systems Engineer · Master Truck Center
+`October 2021 – Present` · 3PL / Freight & Logistics
 
-Build data and AI systems supporting supply-chain decision-making across freight and logistics operations — from ingestion and feature engineering through model deployment and production monitoring.
+Building production AI systems and MLOps infrastructure on top of multi-year data engineering work. Recent focus on RAG, eval methodology, and agentic workflows.
 
-- Built predictive analytics and forecasting models for supply-chain planning across freight and logistics workflows
-- Designed and deployed AI-driven and automation applications, integrating generative-AI / LLM capabilities into enterprise systems via backend APIs
+- Shipped a public production RAG demo (Mistral + pgvector + FastAPI) with a full reproducible eval suite — MRR 0.92, 100% refusal rate on negative tests
+- Built an eval harness covering retrieval (precision@k, recall@k, MRR), generation quality (LLM-judge across 5 rubric dimensions), latency (p50/p95/p99), cost per query, and refusal testing
+- Production resilience patterns for LLM workloads: exponential-backoff retry, checkpointing for expensive runs, rate-limit handling
 - Engineered distributed Databricks + PySpark pipelines over multi-million-record datasets, improving performance 30%+
-- Operationalized the full ML lifecycle — experiment tracking, pipeline execution, model registry — with MLflow on Azure
+- Built data ingestion with Azure Data Factory and operationalized the ML lifecycle (tracking, experimentation, pipeline execution) with MLflow; developed backend APIs integrating AI workflows with enterprise systems
 
-`Databricks` `PySpark` `MLflow` `Delta Lake` `Azure Data Factory` `Azure ML` `Docker` `LLM APIs`
+`Python` `Databricks` `MLflow` `Delta Lake` `pgvector` `FastAPI` `Azure ML` `Azure Data Factory` `Docker` `Terraform`
 
-### Earlier — Master Truck Center
-`2013 – 2020` · Data Analyst / Data Engineer → Operations & Logistics Analyst
+### Data Analyst / Data Engineer · Master Truck Center
+`January 2017 – December 2020` · Brampton, ON
 
-Progressed from operational logistics analysis into data engineering: built SQL reporting over financial and logistics datasets, automated reconciliation and validation workflows (60%+ manual effort cut), and developed deep domain fluency in freight, shipment, and supply-chain data systems.
+Built the data engineering foundation that powers current AI/ML work — owned data infrastructure for a multi-million-dollar freight logistics business: ingestion, transformation, reconciliation, reporting.
 
-`SQL` `Python` `ETL` `Power BI` `Data Reconciliation` `Supply Chain`
+- Built SQL reporting over operational and financial datasets, including billing reconciliation across multiple carrier sources
+- Automated data validation, reconciliation, and reporting workflows, reducing manual effort and processing delays
+- Self-taught Python, SQL, and cloud platforms while delivering production value — set the trajectory for current AI engineering work
+
+`SQL` `Python` `ETL` `Data Reconciliation` `Financial Data`
+
+### Operations / Logistics Analyst · Master Truck Center
+`October 2013 – December 2016` · Brampton, ON
+
+Freight movement, billing, and reconciliation analytics for a 3PL business. Drove the case for moving from spreadsheet workflows to proper data infrastructure.
+
+- Managed and analyzed shipment, billing, and logistics data across multiple carriers
+- Supported invoicing, reconciliation, and operational reporting for the 3PL business
+- Built deep operational knowledge of end-to-end logistics, freight reconciliation, and 3PL supply chain — domain expertise that informs current AI/ML work
 
 ---
 
@@ -207,27 +224,19 @@ Progressed from operational logistics analysis into data engineering: built SQL 
 **Microsoft Azure**
 
 ![Azure AI Fundamentals](https://img.shields.io/badge/Azure_AI_Fundamentals-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure Data Fundamentals](https://img.shields.io/badge/Azure_Data_Fundamentals-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![Azure Fundamentals](https://img.shields.io/badge/Azure_Fundamentals-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 **Databricks**
 
-![Databricks Lakehouse](https://img.shields.io/badge/Lakehouse_Fundamentals-FF3621?style=flat-square&logo=databricks&logoColor=white)
+![Databricks Fundamentals](https://img.shields.io/badge/Academy_Accreditation_—_Databricks_Fundamentals-FF3621?style=flat-square&logo=databricks&logoColor=white)
 
 **Google**
 
-![Google Cybersecurity](https://img.shields.io/badge/Cybersecurity_Professional-4285F4?style=flat-square&logo=google&logoColor=white)
+![Google Cybersecurity](https://img.shields.io/badge/Cybersecurity_Professional_Certificate_V2-4285F4?style=flat-square&logo=google&logoColor=white)
 
-**PMI & Process**
+**PMI**
 
 ![PMP](https://img.shields.io/badge/PMP®-5F4B8B?style=flat-square&logo=pmi&logoColor=white)
-![Lean Six Sigma](https://img.shields.io/badge/Lean_Six_Sigma_Green_Belt-6D28D9?style=flat-square&logoColor=white)
-
-**In Progress**
-
-![DP-100](https://img.shields.io/badge/DP--100_Azure_Data_Scientist-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Google PMLE](https://img.shields.io/badge/Google_Professional_ML_Engineer-4285F4?style=flat-square&logo=google&logoColor=white)
-![Databricks ML Pro](https://img.shields.io/badge/Databricks_ML_Professional-FF3621?style=flat-square&logo=databricks&logoColor=white)
 
 ---
 
@@ -288,18 +297,17 @@ Progressed from operational logistics analysis into data engineering: built SQL 
 
 ```yaml
 learning:
-  - GCP / Vertex AI            # bridging toward enterprise multi-cloud ML
-  - Cross-encoder reranking    # pushing RAG precision beyond 0.82
+  - Cross-encoder reranking          # pushing RAG precision beyond 0.82
+  - LLM-as-judge reliability & graded relevance
 building:
   - RAG & agent evaluation tooling
-  - Production GenAI on enterprise data
+  - Production GenAI on enterprise data (Azure)
 exploring:
   - Multi-agent orchestration patterns and where they actually pay off
-  - LLM-as-judge reliability and graded relevance
+  - Production resilience: retry, checkpointing, rate-limit handling
 open_to:
-  - AI / ML Engineer · ML Platform · MLOps
-  - Forward Deployed Engineer
-  - Remote (US/Canada) or US on-site — TN visa eligible (USMCA)
+  - AI Engineer · ML Platform · MLOps
+  - Toronto · Remote-US · US relocation — TN visa eligible
 ```
 
 ---
