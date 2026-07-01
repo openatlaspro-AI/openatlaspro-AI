@@ -262,7 +262,7 @@ Building production AI systems and MLOps infrastructure on top of multi-year dat
 `Python` `LangGraph` `FastAPI` `MCP` `sqlglot` `pgvector` `DuckDB` `Databricks` `MLflow` `Azure ML` `Docker` `Terraform`
 
 ### Data Analyst / Data Engineer · Master Truck Center
-`January 2017 – December 2020` · Brampton, ON
+`January 2017 – October 2021` · Brampton, ON
 
 Built the data engineering foundation that powers current AI/ML work — owned data infrastructure for a multi-million-dollar freight logistics business: ingestion, transformation, reconciliation, reporting.
 
