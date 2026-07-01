@@ -304,8 +304,9 @@ Freight movement, billing, and reconciliation analytics for a 3PL business. Drov
 
 **Microsoft Azure**
 
-![Azure AI Fundamentals](https://img.shields.io/badge/Azure_AI_Fundamentals-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure Fundamentals](https://img.shields.io/badge/Azure_Fundamentals-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure AI Fundamentals](https://img.shields.io/badge/Azure_AI_Fundamentals_(AI--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Data Fundamentals](https://img.shields.io/badge/Azure_Data_Fundamentals_(DP--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Fundamentals](https://img.shields.io/badge/Azure_Fundamentals_(AZ--900)-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 **Databricks**
 
