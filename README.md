@@ -10,7 +10,7 @@
 <br/>
 
 [![Education](https://img.shields.io/badge/BBA-University_of_Guelph--Humber-7C3AED?style=for-the-badge&logo=googlescholar&logoColor=white)](https://www.guelphhumber.ca/)
-[![Location](https://img.shields.io/badge/Detroit_Metropolitan_Area-TN_Visa_Eligible-6D28D9?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/Greater_Toronto_Area-TN_Visa_Eligible-6D28D9?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 <br/>
 
@@ -49,7 +49,7 @@ The thing most engineers skip: **eval rigor and honesty.** Most public AI demos 
 
 **12 years inside freight/logistics and financial data systems** — including recovering **$500K+ in revenue** by finding the kind of data inconsistencies AI is now being asked to catch. I've seen the messy real-world data most AI demos avoid; my systems handle it.
 
-**◆ Open To** — based in Greater Toronto Area / Detroit Metro. TN visa eligible (US employers sponsor via a straightforward process, not the H-1B lottery). Open to AI/ML Engineer, Applied AI, and Forward-Deployed Engineer roles — Toronto, remote-US, or US relocation.
+**◆ Open To** — based in Greater Toronto Area (ET). TN visa eligible (US employers sponsor via a straightforward process, not the H-1B lottery). Open to AI/ML Engineer, Applied AI, and Forward-Deployed Engineer roles — Toronto, remote-US, or US relocation.
 
 ---
 
@@ -70,7 +70,7 @@ The thing most engineers skip: **eval rigor and honesty.** Most public AI demos 
 
 **Cloud, DevOps & Tooling**
 
-![Skills](https://skillicons.dev/icons?i=azure,docker,kubernetes,terraform,githubactions,git,linux&theme=dark)
+![Skills](https://skillicons.dev/icons?i=azure,docker,githubactions,git,linux&theme=dark)
 
 **AI / ML / Data**
 
@@ -121,7 +121,7 @@ An enterprise-style AI-agent platform built the way you'd build real infrastruct
 | **Architecture** | Hexagonal / 12-factor · ports & adapters · policy-based model router w/ fallback · hybrid retrieval (dense + BM25 RRF + guarded SQL) |
 | **Safety** | Layered guardrails: prompt-injection, PII redaction, sqlglot SQL-safety; grounding critic that refuses instead of hallucinating |
 | **Observability** | OpenTelemetry-style trace trees with per-span token + cost accounting; Prometheus `/metrics` |
-| **Proof** | Labeled eval: routing `93%` · retrieval `100%` · guardrail catch-rate `100%` · **57 tests** · 8 ADRs · Docker + CI |
+| **Proof** | Labeled eval (15 tasks, committed receipts): routing `93%` · retrieval `100%` · **57 tests** · 8 ADRs · Docker + CI |
 | **Repository** | [github.com/openatlaspro-AI/atlas-ai-platform](https://github.com/openatlaspro-AI/atlas-ai-platform) |
 
 </details>
@@ -138,7 +138,7 @@ A multi-agent hybrid RAG assistant on LangGraph: a router dispatches across docu
 | **Stack** | Python · LangGraph · OpenAI · DuckDB · sqlglot · rank-bm25 · pydantic · pytest |
 | **Design** | router → (doc-RAG + analytics) → synthesizer → grounding critic, with a retry loop (max 2) |
 | **Safety** | sqlglot AST guard on all LLM-generated SQL; anti-hallucination grounding check |
-| **Proof** | Labeled eval: routing `95%` · retrieval hit-rate `100%` · groundedness catch-rate `100%` · **45 tests** + CI |
+| **Proof** | 20-query labeled eval: routing `95%` · retrieval hit-rate `100%` · all 3 groundedness traps caught · **45 tests** + CI |
 | **Repository** | [github.com/openatlaspro-AI/freight-rag-agents](https://github.com/openatlaspro-AI/freight-rag-agents) |
 
 </details>
@@ -191,11 +191,11 @@ Fine-tuned Qwen2.5 (4-bit) with LoRA via Apple MLX for structured freight-text �
 </details>
 
 <details>
-<summary><b>◆ voice-agent</b> — local-first real-time voice agent</summary>
+<summary><b>◆ voice-agent</b> — local-STT voice agent with reproducible latency receipts</summary>
 
 <br/>
 
-A real-time voice pipeline (STT → tool-using LLM → TTS) with a self-contained latency benchmark that synthesizes its own test audio, so the numbers reproduce on any Mac.
+A voice pipeline (local STT → tool-calling LLM → TTS) with a self-contained latency benchmark that synthesizes its own test audio, so the numbers reproduce on any Mac.
 
 | Attribute | Detail |
 |-----------|--------|
@@ -226,12 +226,12 @@ End-to-end research platform for testing systematic trading signals on US equiti
 
 <br/>
 
-A multi-agent AI automation system running 24/7 autonomous operations on a Mac Mini M4, powering a live 9-product digital business, with intelligent model routing across hosted and local LLMs.
+A multi-agent AI automation system running 24/7 autonomous operations on a Mac Mini M4, powering a 9-product digital business, with intelligent model routing across hosted and local LLMs.
 
 | Attribute | Detail |
 |-----------|--------|
 | **Stack** | Python · Anthropic API · OpenAI API · local models (Ollama) · Playwright · Docker · MCP servers |
-| **Scale** | 9 products live · 24/7 autonomous operation · persistent memory + skill modules |
+| **Scale** | 9 products shipped · 24/7 autonomous operation · persistent memory + skill modules |
 | **Impact** | End-to-end pipeline: trend monitoring → AI-generated content → automated publishing → notifications |
 | **Repository** | Private (public extract: [production-rag-eval](https://github.com/openatlaspro-AI/production-rag-eval)) |
 
@@ -242,24 +242,24 @@ A multi-agent AI automation system running 24/7 autonomous operations on a Mac M
 <!-- ====================== EXPERIENCE ====================== -->
 ## ⟡ Experience
 
-### AI Engineer / Data & AI Systems Engineer · Master Truck Center
+### Data & AI Systems Engineer · Master Truck Center
 `October 2021 – Present` · 3PL / Freight & Logistics
 
 Building production AI systems and MLOps infrastructure on top of multi-year data engineering work. Recent focus: multi-agent orchestration, hybrid RAG, LLM evaluation, and AI guardrails.
 
-**Recent AI engineering (open source — every number has a committed receipt):**
-- **Atlas AI Platform** — hexagonal 12-factor AI-agent platform: FastAPI gateway (auth, rate limiting, RBAC), policy-based model router with fallback, hybrid retrieval (dense + BM25 RRF + guarded SQL), layered guardrails, grounding-critic orchestration, and OTel-style trace + cost observability. 57 tests, 8 ADRs, Docker + CI
-- **freight-rag-agents** — multi-agent hybrid RAG on LangGraph with a grounding critic (routing 95% / retrieval 100% / groundedness catch 100%)
+**Independent open-source AI engineering (personal projects, built outside work — every number has a committed receipt):**
+- **Atlas AI Platform** — hexagonal 12-factor AI-agent platform: FastAPI gateway (auth, rate limiting, role-scoped endpoints), policy-based model router with fallback, hybrid retrieval (dense + BM25 RRF + guarded SQL), layered guardrails, grounding-critic orchestration, and OTel-style trace + cost observability. 57 tests, 8 ADRs, Docker + CI
+- **freight-rag-agents** — multi-agent hybrid RAG on LangGraph with a grounding critic (routing 95% / retrieval 100% / all 3 groundedness traps caught, 20-query labeled eval)
 - **databricks-mcp** — MCP server giving agents safe read-only SQL, with an sqlglot AST guard blocking DDL/DML and filesystem exfiltration
 - **production-rag-eval** — reproducible RAG eval (P@5 0.68 / MRR 0.92) + a multi-method benchmark; reported honestly that dense retrieval beat hybrid/GraphRAG/reranking
 - **mlx-lora-finetune** — LoRA fine-tuning of Qwen2.5 (4-bit) via Apple MLX: 71% → 100% field accuracy on structured freight extraction, ~6 min on an M4
-- **voice-agent** — local-first real-time voice pipeline (faster-whisper → tool-using GPT-4o-mini → TTS): 3.18s p50 end-to-end
+- **voice-agent** — voice pipeline with local STT (faster-whisper → tool-calling GPT-4o-mini → TTS): 3.18s p50 end-to-end, per-stage receipts
 
 **Data & ML platform engineering:**
 - Engineered distributed Databricks + PySpark pipelines over multi-million-record datasets, improving performance 30%+
 - Built data ingestion with Azure Data Factory and operationalized the ML lifecycle (tracking, registry) with MLflow; developed backend APIs integrating AI workflows with enterprise systems
 
-`Python` `LangGraph` `FastAPI` `MCP` `sqlglot` `pgvector` `DuckDB` `Databricks` `MLflow` `Azure ML` `Docker` `Terraform`
+`Python` `LangGraph` `FastAPI` `MCP` `sqlglot` `pgvector` `DuckDB` `Databricks` `MLflow` `Azure` `Docker`
 
 ### Data Analyst / Data Engineer · Master Truck Center
 `January 2017 – October 2021` · Brampton, ON
