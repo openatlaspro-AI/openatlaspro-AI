@@ -363,17 +363,6 @@ Freight movement, billing, and reconciliation analytics for a 3PL business. Drov
 
 ---
 
-<!-- ====================== ACTIVITY GRAPH ====================== -->
-## ⟡ Contribution Activity
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=openatlaspro-AI&bg_color=0D1117&color=C4B5FD&line=8B5CF6&point=ffffff&area=true&area_color=7C3AED&hide_border=true" alt="activity-graph" />
-
-</div>
-
----
-
 <!-- ====================== SNAKE ====================== -->
 ## ⟡ Contribution Snake
 
