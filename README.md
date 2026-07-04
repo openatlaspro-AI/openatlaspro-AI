@@ -352,6 +352,12 @@ Freight movement, billing, and reconciliation analytics for a 3PL business. Drov
 <a href="https://github.com/openatlaspro-AI/databricks-mcp">
   <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=openatlaspro-AI&repo=databricks-mcp&hide_border=true&theme=tokyonight&title_color=A78BFA&text_color=C4B5FD&icon_color=8B5CF6&bg_color=0D1117" alt="databricks-mcp" />
 </a>
+<a href="https://github.com/openatlaspro-AI/mlx-lora-finetune">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=openatlaspro-AI&repo=mlx-lora-finetune&hide_border=true&theme=tokyonight&title_color=A78BFA&text_color=C4B5FD&icon_color=8B5CF6&bg_color=0D1117" alt="mlx-lora-finetune" />
+</a>
+<a href="https://github.com/openatlaspro-AI/voice-agent">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=openatlaspro-AI&repo=voice-agent&hide_border=true&theme=tokyonight&title_color=A78BFA&text_color=C4B5FD&icon_color=8B5CF6&bg_color=0D1117" alt="voice-agent" />
+</a>
 
 </div>
 
