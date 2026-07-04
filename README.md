@@ -10,7 +10,7 @@
 <br/>
 
 [![Education](https://img.shields.io/badge/BBA-University_of_Guelph--Humber-7C3AED?style=for-the-badge&logo=googlescholar&logoColor=white)](https://www.guelphhumber.ca/)
-[![Location](https://img.shields.io/badge/Greater_Toronto_Area-TN_Visa_Eligible-6D28D9?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/Detroit_Metro_·_Greater_Toronto_Area-TN_Visa_Eligible-6D28D9?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 
 <br/>
 
@@ -49,7 +49,7 @@ The thing most engineers skip: **eval rigor and honesty.** Most public AI demos 
 
 **12 years inside freight/logistics and financial data systems** — finding the kind of data inconsistencies AI is now being asked to catch. I've seen the messy real-world data most AI demos avoid; my systems handle it.
 
-**◆ Open To** — based in Greater Toronto Area (ET). TN visa eligible (US employers sponsor via a straightforward process, not the H-1B lottery). Open to AI/ML Engineer, Applied AI, and Forward-Deployed Engineer roles — Toronto, remote-US, or US relocation.
+**◆ Open To** — currently in the Detroit metro area; home base Greater Toronto Area. TN visa eligible (US employers sponsor via a straightforward process, not the H-1B lottery). Open to AI/ML Engineer, Applied AI, and Forward-Deployed Engineer roles — Toronto, remote-US, or US relocation.
 
 ---
 
