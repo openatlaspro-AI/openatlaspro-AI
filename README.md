@@ -47,7 +47,7 @@ This year I shipped **6 open-source AI systems** — each with tests and reprodu
 
 The thing most engineers skip: **eval rigor and honesty.** Most public AI demos hide their methodology — mine document the labeling protocol, disclose the caveats, and ship the raw reports, *including the times a simpler baseline won*.
 
-**12 years inside freight/logistics and financial data systems** — including recovering **$500K+ in revenue** by finding the kind of data inconsistencies AI is now being asked to catch. I've seen the messy real-world data most AI demos avoid; my systems handle it.
+**12 years inside freight/logistics and financial data systems** — finding the kind of data inconsistencies AI is now being asked to catch. I've seen the messy real-world data most AI demos avoid; my systems handle it.
 
 **◆ Open To** — based in Greater Toronto Area (ET). TN visa eligible (US employers sponsor via a straightforward process, not the H-1B lottery). Open to AI/ML Engineer, Applied AI, and Forward-Deployed Engineer roles — Toronto, remote-US, or US relocation.
 
@@ -266,7 +266,7 @@ Building production AI systems and MLOps infrastructure on top of multi-year dat
 
 Built the data engineering foundation that powers current AI/ML work — owned data infrastructure for a multi-million-dollar freight logistics business: ingestion, transformation, reconciliation, reporting.
 
-- **Recovered $500K+ in revenue** by building billing-reconciliation systems that surfaced data inconsistencies across multiple carrier sources
+- Built billing-reconciliation systems that surfaced data inconsistencies across multiple carrier sources
 - Automated data validation, reconciliation, and reporting workflows, reducing manual effort and processing delays
 - Self-taught Python, SQL, and cloud platforms while delivering production value — set the trajectory for current AI engineering work
 
@@ -292,7 +292,6 @@ Freight movement, billing, and reconciliation analytics for a 3PL business. Drov
 | **Atlas AI Platform** | Architected a hexagonal, 12-factor AI-agent platform (model router, guardrails, grounding critic, observability) — 57 tests, 8 ADRs, real eval receipts |
 | **6 Shipped AI Systems** | Multi-agent RAG, an MCP server, fine-tuning, a voice agent, and eval tooling — all open source, all with committed metric receipts |
 | **Honest Benchmarks** | Published negative results (multi-agent overhead; dense beating hybrid/GraphRAG) rather than tuning to win |
-| **$500K Revenue Recovery** | Surfaced billing/data inconsistencies via reconciliation systems — the exact class of problem AI is now asked to catch |
 | **Domain-to-AI Bridge** | 12 years of freight/logistics & financial data engineering applied to production applied-AI |
 
 </div>
