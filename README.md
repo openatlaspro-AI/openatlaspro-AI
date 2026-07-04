@@ -256,8 +256,8 @@ Building production AI systems and MLOps infrastructure on top of multi-year dat
 - **voice-agent** — voice pipeline with local STT (faster-whisper → tool-calling GPT-4o-mini → TTS): 3.18s p50 end-to-end, per-stage receipts
 
 **Data & ML platform engineering:**
-- Engineered distributed Databricks + PySpark pipelines over multi-million-record datasets, improving performance 30%+
-- Built data ingestion with Azure Data Factory and operationalized the ML lifecycle (tracking, registry) with MLflow; developed backend APIs integrating AI workflows with enterprise systems
+- Built Databricks + PySpark pipelines over multi-million-record freight datasets, improving batch performance 30%+
+- Built data ingestion with Azure Data Factory and set up MLflow tracking + registry; developed internal APIs integrating analytics with operations and finance systems
 
 `Python` `LangGraph` `FastAPI` `MCP` `sqlglot` `pgvector` `DuckDB` `Databricks` `MLflow` `Azure` `Docker`
 
