@@ -17,7 +17,7 @@
 [![Atlas AI Platform](https://img.shields.io/badge/Flagship-Atlas_AI_Platform-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openatlaspro-AI/atlas-ai-platform)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Production_RAG-6D28D9?style=for-the-badge&logo=streamlit&logoColor=white)](https://openatlaspro-rag-eval.streamlit.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/markteji)
-[![Email](https://img.shields.io/badge/Email-Reach_Out-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mteji24@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Reach_Out-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mteji06@gmail.com)
 
 <br/>
 
@@ -409,7 +409,7 @@ open_to:
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Gmail-mteji24@gmail.com-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mteji24@gmail.com)
+[![Email](https://img.shields.io/badge/Gmail-mteji06@gmail.com-7C3AED?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mteji06@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fmarkteji-4F46E5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/markteji)
 [![Atlas AI Platform](https://img.shields.io/badge/Flagship-Atlas_AI_Platform-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/openatlaspro-AI/atlas-ai-platform)
 [![Live Demo](https://img.shields.io/badge/Portfolio-Production_RAG_Demo-6D28D9?style=for-the-badge&logo=streamlit&logoColor=white)](https://openatlaspro-rag-eval.streamlit.app)
