@@ -4,7 +4,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=gradient&customColorList=12,20,24&text=Mark%20Teji&fontColor=ffffff&fontSize=58&fontAlignY=34&desc=AI%20Engineer%20%C2%B7%20Multi-Agent%20Systems%20%C2%B7%20Hybrid%20RAG%20%C2%B7%20LLM%20Eval&descAlignY=56&descSize=18&animation=fadeIn" alt="header" />
 
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=760&lines=AI+Engineer+%7C+Multi-Agent+Systems+%C2%B7+Hybrid+RAG+%C2%B7+LLM+Eval;Atlas+AI+Platform+%C2%B7+LangGraph+%C2%B7+MCP+%C2%B7+Guardrails;6+open-source+AI+systems+%E2%80%94+every+metric+has+a+receipt;12+years+turning+messy+logistics+data+into+production+AI" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=8B5CF6&center=true&vCenter=true&width=760&lines=AI+Engineer+%7C+Multi-Agent+Systems+%C2%B7+Hybrid+RAG+%C2%B7+LLM+Eval;Atlas+AI+Platform+%C2%B7+LangGraph+%C2%B7+MCP+%C2%B7+Guardrails;6+open-source+AI+systems+%E2%80%94+every+metric+has+a+receipt;8+years+of+global+freight+%26+logistics+billing+data" alt="typing" />
 </a>
 
 <br/>
@@ -43,11 +43,11 @@ This year I shipped **6 open-source AI systems** — each with tests and reprodu
 - **Hybrid RAG** — dense + BM25 + SQL, RRF fusion, reranking, citation tracking, evaluation
 - **AI guardrails & security** — prompt-injection detection, PII redaction, safe tool execution
 - **LLM evaluation & observability** — LLM-as-judge, groundedness, latency & cost receipts
-- **ML platform foundation** — Databricks, MLflow, Delta Lake, Azure
+- **Data foundations** — ETL & reconciliation pipelines, DuckDB, SQL, Azure (certified), Databricks (certified fundamentals)
 
 The thing most engineers skip: **eval rigor and honesty.** Most public AI demos hide their methodology — mine document the labeling protocol, disclose the caveats, and ship the raw reports, *including the times a simpler baseline won*.
 
-**12 years inside freight/logistics and financial data systems** — finding the kind of data inconsistencies AI is now being asked to catch. I've seen the messy real-world data most AI demos avoid; my systems handle it.
+**8 years inside global freight/logistics billing and operations data** (DB Schenker → DSV) — invoicing, carrier reconciliation, and the messy real-world data most AI demos avoid. My AI systems are built for that data because I work with it every day.
 
 **◆ Open To** — currently in the Detroit metro area; home base Greater Toronto Area. TN visa eligible (US employers sponsor via a straightforward process, not the H-1B lottery). Open to AI/ML Engineer, Applied AI, and Forward-Deployed Engineer roles — Toronto, remote-US, or US relocation.
 
@@ -100,8 +100,8 @@ The thing most engineers skip: **eval rigor and honesty.** Most public AI demos 
 | **LLM Evaluation** | `Advanced` | precision@k · latency p50/p95/p99 · cost-per-query · LLM-as-judge · groundedness · refusal eval (100% / 0 hallucinations) |
 | **Model Routing & Cost** | `Advanced` | policy-based multi-provider routing with fallback; data-driven model selection (~10× cost cuts with no quality loss) |
 | **Fine-Tuning** | `Proficient` | LoRA / 4-bit (QLoRA-style) via Apple MLX — 71% → 100% task accuracy on structured extraction |
-| **MLOps / ML Platform** | `Advanced` | Databricks, MLflow lifecycle, Delta Lake, CI/CD, OTel-style tracing, reproducible pipelines |
-| **Data Engineering** | `Advanced` | PySpark at scale, Azure Data Factory, multi-million-record ingestion, structured + unstructured |
+| **MLOps / Delivery** | `Proficient` | CI/CD, OTel-style tracing, reproducible eval pipelines, Docker; Databricks/MLflow (certified fundamentals) |
+| **Data Engineering** | `Proficient` | ETL & reconciliation pipelines, DuckDB, SQL, structured + unstructured ingestion |
 
 ---
 
@@ -242,12 +242,12 @@ A multi-agent AI automation system running 24/7 autonomous operations on a Mac M
 <!-- ====================== EXPERIENCE ====================== -->
 ## ⟡ Experience
 
-### Data & AI Systems Engineer · Master Truck Center
-`October 2021 – Present` · 3PL / Freight & Logistics
+### AI Engineer · Independent / Open Source
+`2026 – Present`
 
-Building production AI systems and MLOps infrastructure on top of multi-year data engineering work. Recent focus: multi-agent orchestration, hybrid RAG, LLM evaluation, and AI guardrails.
+Self-directed production AI engineering, shipped in public. Focus: multi-agent orchestration, hybrid RAG, LLM evaluation, and AI guardrails.
 
-**Independent open-source AI engineering (personal projects, built outside work — every number has a committed receipt):**
+**Shipped systems (personal projects, built outside work — every number has a committed receipt):**
 - **Atlas AI Platform** — hexagonal 12-factor AI-agent platform: FastAPI gateway (auth, rate limiting, role-scoped endpoints), policy-based model router with fallback, hybrid retrieval (dense + BM25 RRF + guarded SQL), layered guardrails, grounding-critic orchestration, and OTel-style trace + cost observability. 57 tests, 8 ADRs, Docker + CI
 - **freight-rag-agents** — multi-agent hybrid RAG on LangGraph with a grounding critic (routing 95% / retrieval 100% / all 3 groundedness traps caught, 20-query labeled eval)
 - **databricks-mcp** — MCP server giving agents safe read-only SQL, with an sqlglot AST guard blocking DDL/DML and filesystem exfiltration
@@ -255,30 +255,19 @@ Building production AI systems and MLOps infrastructure on top of multi-year dat
 - **mlx-lora-finetune** — LoRA fine-tuning of Qwen2.5 (4-bit) via Apple MLX: 71% → 100% field accuracy on structured freight extraction, ~6 min on an M4
 - **voice-agent** — voice pipeline with local STT (faster-whisper → tool-calling GPT-4o-mini → TTS): 3.18s p50 end-to-end, per-stage receipts
 
-**Data & ML platform engineering:**
-- Built Databricks + PySpark pipelines over multi-million-record freight datasets, improving batch performance 30%+
-- Built data ingestion with Azure Data Factory and set up MLflow tracking + registry; developed internal APIs integrating analytics with operations and finance systems
+`Python` `LangGraph` `FastAPI` `MCP` `sqlglot` `pgvector` `DuckDB` `Docker` `pytest`
 
-`Python` `LangGraph` `FastAPI` `MCP` `sqlglot` `pgvector` `DuckDB` `Databricks` `MLflow` `Azure` `Docker`
+### Billing Specialist · DSV
+`June 2026 – Present` · Global Freight & Logistics
 
-### Data Analyst / Data Engineer · Master Truck Center
-`January 2017 – October 2021` · Brampton, ON
+Continuation of the DB Schenker role below — DSV became the legal owner of Schenker in June 2026.
 
-Built the data engineering foundation that powers current AI/ML work — owned data infrastructure for a multi-million-dollar freight logistics business: ingestion, transformation, reconciliation, reporting.
+### Billing Coordinator · DB Schenker
+`April 2018 – June 2026` · Global Freight & Logistics
 
-- Built billing-reconciliation systems that surfaced data inconsistencies across multiple carrier sources
-- Automated data validation, reconciliation, and reporting workflows, reducing manual effort and processing delays
-- Self-taught Python, SQL, and cloud platforms while delivering production value — set the trajectory for current AI engineering work
+Eight years of freight billing operations at one of the world's largest logistics providers — invoicing, carrier reconciliation, and high-volume billing data across international freight. The domain depth behind the freight-focused AI systems above.
 
-`SQL` `Python` `ETL` `Data Reconciliation` `Financial Data`
-
-### Operations / Logistics Analyst · Master Truck Center
-`October 2013 – December 2016` · Brampton, ON
-
-Freight movement, billing, and reconciliation analytics for a 3PL business. Drove the case for moving from spreadsheet workflows to proper data infrastructure.
-
-- Managed and analyzed shipment, billing, and logistics data across multiple carriers
-- Built deep operational knowledge of end-to-end logistics, freight reconciliation, and 3PL supply chain — domain expertise that now informs my freight-focused AI systems
+- Self-taught Python, SQL, and cloud platforms alongside the day job — the trajectory behind the AI engineering work above
 
 ---
 
@@ -292,7 +281,7 @@ Freight movement, billing, and reconciliation analytics for a 3PL business. Drov
 | **Atlas AI Platform** | Architected a hexagonal, 12-factor AI-agent platform (model router, guardrails, grounding critic, observability) — 57 tests, 8 ADRs, real eval receipts |
 | **6 Shipped AI Systems** | Multi-agent RAG, an MCP server, fine-tuning, a voice agent, and eval tooling — all open source, all with committed metric receipts |
 | **Honest Benchmarks** | Published negative results (multi-agent overhead; dense beating hybrid/GraphRAG) rather than tuning to win |
-| **Domain-to-AI Bridge** | 12 years of freight/logistics & financial data engineering applied to production applied-AI |
+| **Domain-to-AI Bridge** | 8 years of global freight/logistics billing data (DB Schenker → DSV) applied to production applied-AI |
 
 </div>
 
