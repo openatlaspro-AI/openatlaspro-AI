@@ -117,7 +117,7 @@ An enterprise-style AI-agent platform built the way you'd build real infrastruct
 
 | Attribute | Detail |
 |-----------|--------|
-| **Stack** | Python · FastAPI · LangGraph · OpenAI · DuckDB · sqlglot · pydantic · Docker · pytest |
+| **Stack** | Python · FastAPI · OpenAI · DuckDB · sqlglot · pydantic · Docker · pytest |
 | **Architecture** | Hexagonal / 12-factor · ports & adapters · policy-based model router w/ fallback · hybrid retrieval (dense + BM25 RRF + guarded SQL) |
 | **Safety** | Layered guardrails: prompt-injection, PII redaction, sqlglot SQL-safety; grounding critic that refuses instead of hallucinating |
 | **Observability** | OpenTelemetry-style trace trees with per-span token + cost accounting; Prometheus `/metrics` |
@@ -260,7 +260,11 @@ Self-directed production AI engineering, shipped in public. Focus: multi-agent o
 ### Billing Specialist · DSV
 `June 2026 – Present` · Global Freight & Logistics
 
-Continuation of the DB Schenker role below — DSV became the legal owner of Schenker in June 2026.
+Continuation of the DB Schenker role below — DSV became the legal owner of Schenker in June 2026. Current focus: applying AI agents to the billing desk itself.
+
+- Automated the monthly freight-billing close for a ~4,500-row unbilled report across 500+ shipment files and 6+ shipper accounts — directing AI coding agents (Claude Code) to build PowerShell / Excel-COM automations that turned multi-day manual charge entry into scripted, auditable runs
+- Reconciled carrier invoices across 10+ carriers: one cycle auto-matched 1,057 of 1,068 charge lines (~99%) and synced 3,936 charge cells with zero overwrites, via blanks-only safeguards that flag ambiguous rows for human review
+- Rate audits that caught real billing errors — 9 shipments re-rated against contract tariffs; a duplicated handling charge traced and corrected ($874) before it billed
 
 ### Billing Coordinator · DB Schenker
 `April 2018 – June 2026` · Global Freight & Logistics
@@ -304,9 +308,10 @@ Eight years of freight billing operations at one of the world's largest logistic
 
 ![Google Cybersecurity](https://img.shields.io/badge/Cybersecurity_Professional_Certificate_V2-4285F4?style=flat-square&logo=google&logoColor=white)
 
-**PMI**
+**PMI & Process**
 
 ![PMP](https://img.shields.io/badge/PMP®-5F4B8B?style=flat-square&logo=pmi&logoColor=white)
+![Lean Six Sigma](https://img.shields.io/badge/Lean_Six_Sigma_Green_Belt-2E8B57?style=flat-square&logoColor=white)
 
 ---
 
