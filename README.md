@@ -260,7 +260,7 @@ Self-directed production AI engineering, shipped in public. Focus: multi-agent o
 ### Billing Specialist · DSV
 `June 2026 – Present` · Global Freight & Logistics
 
-Continuation of the DB Schenker role below — DSV became the legal owner of Schenker in June 2026. Current focus: applying AI agents to the billing desk itself.
+Continuation of the DB Schenker role below — DSV acquired Schenker in April 2025; my payroll and title transitioned to DSV in June 2026. Current focus: applying AI agents to the billing desk itself.
 
 - Automated the monthly freight-billing close for a ~4,500-row unbilled report across 500+ shipment files and 6+ shipper accounts — directing AI coding agents (Claude Code) to build PowerShell / Excel-COM automations that turned multi-day manual charge entry into scripted, auditable runs
 - Reconciled carrier invoices across 10+ carriers: one cycle auto-matched 1,057 of 1,068 charge lines (~99%) and synced 3,936 charge cells with zero overwrites, via blanks-only safeguards that flag ambiguous rows for human review
